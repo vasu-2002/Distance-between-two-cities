@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+	int S,D1,T,D2,D;
+	int x1,y1,x2,y2;
+	printf("Enter value of Speed1: ");
+	scanf("%d",&x1);
+	printf("Enter value of Speed2: ");
+	scanf("%d",&x2);
+	printf("Enter value of Time1: ");
+	scanf("%d",&y1);
+	printf("Enter value of Time2: ");
+	scanf("%d",&y2);
+	D1=x1*y1;
+	printf("Distance of City1: %d",D1);
+	
+	D2=x2*y2;
+	printf("\nDistance of City2: %d",D2);
+
+	D=D2-D1;
+	printf("\nDistance between cities: %d",D);
+	
+}
